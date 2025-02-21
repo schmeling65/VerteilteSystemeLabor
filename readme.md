@@ -18,6 +18,6 @@ docker-compose up -d
 
 # Credits
 
-Backend by @thethirdrobot
+Backend by [thethirdrobot](https://github.com/thethirdrobot)
 
-Frontend by @schmeling65
+Frontend by [schmeling65](https://github.com/schmeling65)
