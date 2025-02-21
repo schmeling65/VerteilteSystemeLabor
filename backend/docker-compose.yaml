@@ -1,0 +1,15 @@
+version: '3'
+services:
+  myapplication:
+    build: .
+    ports:
+      - "8000:80"
+    environment:
+      - MONGODB_CONNSTRING=mongodb://VerteilteSystemeLabor:ws_22_23_vs@mongodb
+      - MONGODB_USER=VerteilteSystemeLabor
+      - MONGODB_PW=ws_22_23_vs
+  mongodb:
+    image: mongo:5.0
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=VerteilteSystemeLabor
+      - MONGO_INITDB_ROOT_PASSWORD=ws_22_23_vs

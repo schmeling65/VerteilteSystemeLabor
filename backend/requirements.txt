@@ -1,0 +1,6 @@
+pymongo~=4.3.2
+dnspython~=2.2.1
+fastapi~=0.87.0
+uvicorn[standard]~=0.19.0
+mongoengine~=0.24.2
+pydantic~=1.10.2
